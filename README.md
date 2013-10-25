@@ -16,3 +16,14 @@ Features
 - Speed increases as time passes.
 - Time score.
 
+New Features
+============
+I would suggest:
+
+- Adding a score by catching small objects that appear randomly during a limited time.
+- Make other objects appear randomly and if you touch them you lose.
+- Make it scroll so you have to escape heading a direction, and objects to intercept you appear in the opposite direction.
+
+License
+=======
+No license. Do whatever you want with it. If you win millions, please don't forget me :)
