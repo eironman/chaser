@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create</title>
+        
+        <link href="css/general.css"rel="stylesheet" type="text/css" >
+        <script src="js/libs/easeljs-0.6.0.min.js"></script>
+        <script src="js/libs/tweenjs-0.4.0.min.js"></script>
+        <script src="js/libs/jquery-1.9.1.min.js"></script>
+        <script src="js/chrono.js"></script>
+        <script src="js/chaser.js"></script>
+        <style type="text/css">
+            *{ margin: 0; padding: 0}
+            ul{
+                list-style: none;
+            }
+            .container{
+                width: 900px;
+                height: 510px;
+                margin: 50px auto 0;
+                overflow: hidden;
+            }
+            canvas{
+                border: 1px solid #000;
+                float: right;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+            li#timeCount{
+                font-size: 32px;
+                margin-bottom: 30px;
+            }
+        </style>
+    </head>
+    <body>
+    	<div class="container">
+			<canvas id="stageCanvas" width="700" height="500">
+	            Your browser doesn't support canvas. Please download a modern browser. 
+	        </canvas>
+	        <ul id="times">
+	        	<li id="timeCount">00:00.000</li>
+	        	<li id="first" class="register">1 <span>00:00.000</span></li>
+	        	<li id="second" class="register">2 <span>00:00.000</span></li>
+	        	<li id="third" class="register">3 <span>00:00.000</span></li>
+	        </ul>
+    	</div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
