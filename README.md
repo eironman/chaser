@@ -1,11 +1,18 @@
-chaser
+Chaser
 ======
 
 Simple javascript game using create.js
 
-You must avoid the pacman eating your mouse inside a boundaries.
+You must avoid the chaser eating your mouse inside a boundaries.
 If it catches you or you're out of bounds you lose.
 
+
+Features
+=========
+
+- Avoids the chaser out of bounds.
 - Control the last known mouse position to move the chaser even when the mouse stops.
 - The chaser has a constant chasing speed, to avoid accelerating far from the cursor and decelerating close to it.
 - Speed increases as time passes.
+- Time score.
+
